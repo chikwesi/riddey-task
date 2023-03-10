@@ -1,5 +1,4 @@
 import { useMemo } from 'react'
-import { Style } from 'util'
 import { progressBar, progressInfo, progressTrack } from './Progress.css'
 
 type ProgressT = {

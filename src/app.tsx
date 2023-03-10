@@ -1,5 +1,5 @@
 import { container } from './app.css'
-import Dialog from './components/dialog'
+import Dialog from './components/Dialog'
 
 function App() {
   return (

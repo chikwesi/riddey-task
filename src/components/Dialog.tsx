@@ -1,7 +1,7 @@
 import { useAddBoard } from '../hooks/useAddBoard'
 import Button from './Button'
 import { container, dialog, list, listIcon, listItem } from './Dialog.css'
-import ProgressBar from './progress'
+import ProgressBar from './Progress'
 import FeatureIcon from '../icons/feature'
 import LogoIcon from '../icons/logo'
 function Dialog() {

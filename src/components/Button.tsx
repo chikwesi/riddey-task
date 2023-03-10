@@ -1,5 +1,4 @@
-import { constants } from 'buffer'
-import { container, dialog } from './Button.css'
+import { container } from './Button.css'
 
 type ButtonT = {
   onClick?: () => void,
