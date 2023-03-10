@@ -14,8 +14,10 @@ export const container = style({
 export const dialog = style({
   background: 'white',
   padding: '1.4em 1em',
-  width: 300,
+  width: 350,
   textAlign: 'center',
+  fontWeight: 400,
+  color: 'var(--font-grey-color, grey)',
 })
 
 export const list = style({
@@ -27,7 +29,7 @@ export const list = style({
       width: '70%',
       marginLeft: 'auto',
       marginRight: 'auto',
-      fontSize: '1.2rem'
+      fontSize: '1.4rem',
     },
   },
 })
@@ -38,19 +40,18 @@ export const listItem = style({
       display: 'flex',
       alignItems: 'flex-start',
       gap: '0.25em',
-      marginBottom: '1em'
+      marginBottom: '1em',
     },
   },
 })
 
 export const listIcon = style({
   selectors: {
-    [`${list} & `]: {
-      marginTop: '-.4em'
+    [`${listItem} & `]: {
+      width: '3em',
     },
   },
 })
-
 
 globalStyle(`${dialog} h2`, {
   padding: '.625em 0',
